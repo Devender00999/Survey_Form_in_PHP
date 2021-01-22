@@ -21,7 +21,7 @@
        <div id="survey-form-container">
             <h1 id="title">PAI Programmers Survey Form</h1>
             <p id="description">Thanks for filling the form. It will help us to improve our services</p>
-            <form action="/" id="survey-form" method="POST">
+            <form action="./" id="survey-form" method="POST">
                 <div class="dataContainer">
                     <label class="inputLabel" id="name-label" for="name">Name</label>
                     <input class="inputBox" name="name" type="text" id="name" placeholder="Enter Your Name" required>
