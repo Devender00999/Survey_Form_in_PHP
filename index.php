@@ -104,9 +104,9 @@
         echo `Hello World`;
 
         $servername = "localhost";
-        $username = "root";
-        $password="";
-        $db = "myDB";
+        $username = "u198103266_dev";
+        $password="A4kVIh#1S";
+        $db = "u198103266_survery_db";
         $conn = new mysqli($servername,$username,$password,$db);
         $interest =join(" | ",$_POST["interest"]);
         $query = "insert into Survery_Details(name,email,age,mob_no,role,refer,feature,interest,suggestion) values ('$_POST[name]','$_POST[email]',$_POST[age],'$_POST[number]','$_POST[role]','$_POST[refer]','$_POST[feature]','$interest','$_POST[suggestion]');";
